@@ -51,9 +51,9 @@ Projektet inkluderar följande SQL-frågor som utförs mot databasen:
 
 _Teknologi
 
-Java
-JDBC (Java Database Connectivity)
-MySQL
+•Java
+•JDBC (Java Database Connectivity)
+•MySQL
 
 
 -Författare
