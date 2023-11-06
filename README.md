@@ -1,6 +1,6 @@
 # Projekt_webbshopp_Systemintegration
 
-_Beskrivning_
+_Beskrivning
 Detta projekt är en Java-applikation som används för att utföra olika SQL-frågor mot en databas som innehåller information om en webbshop. Applikationen använder JDBC (Java Database Connectivity) för att ansluta till databasen och utföra SQL-frågorna.
 
 _Användning
@@ -11,9 +11,8 @@ Se till att din databas är tillgänglig och att du har rätt behörighet att an
 
 Ändra anslutningsinformation: Öppna filen WebbshopQueries.java och ändra följande rader med information som passar din databasanslutning:
 
-java
-Copy code
-String url = "jdbc:mysql://localhost:3306/webbshop?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true";
+-Java Copy code
+String url="jdbc:mysql://localhost:3306/webbshop?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true";
 String användarnamn = "root";
 String lösenord = "DittLösenord";
 Ersätt url, användarnamn och lösenord med rätt information för din MySQL-databas.
@@ -22,6 +21,9 @@ Kör applikationen: Kompilera och kör WebbshopQueries.java för att exekvera SQ
 
 Resultat: Projektet kommer att skriva ut resultaten av varje SQL-fråga i en tydlig tabellformat.
 Du kommer att se kolumnnamnen och resultaten för varje fråga.
+
+
+
 
 SQL-frågor:
 Projektet inkluderar följande SQL-frågor som utförs mot databasen:
@@ -38,6 +40,6 @@ _Teknologi
 Java
 JDBC (Java Database Connectivity)
 MySQL
-Författare
-Denna Java-applikation och README har skapats av Rana Alwan.
 
+-Författare
+Denna Java-applikation och README har skapats av Rana Alwan.
